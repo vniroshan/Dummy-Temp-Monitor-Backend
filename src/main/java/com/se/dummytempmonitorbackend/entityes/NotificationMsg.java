@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="notification_mgs")
-@IdClass(SensorMockId.class)
+@IdClass(NotificationMsgId.class)
 public class NotificationMsg {
 
     @Id
